@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@dico.app/client@file:..":
+"@dico-app/client@file:..":
   version "0.0.1"
   dependencies:
     consola "2.15.2"

@@ -7,7 +7,7 @@
     "dico": "dico"
   },
   "dependencies": {
-    "@dico.app/client": "file:../"
+    "@dico-app/client": "file:../"
   },
   "devDependencies": {}
 }
