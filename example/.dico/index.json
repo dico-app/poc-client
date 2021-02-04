@@ -1,0 +1,1 @@
+{"dialog":{"confirm":"Confirm","cancel":"Cancel","__meta":{"path":"ekina/messages/dialog","version":"1.2.0","type":"string"}},"form":{"username-required":"Username field is required","password-required":"Password field is required","__meta":{"path":"ekina/messages/form","version":"1.1.1","type":"string"}}}

@@ -1,0 +1,13 @@
+{
+  "name": "NAME",
+  "version": "0.0.0",
+  "description": "DESCRIPTION",
+  "license": "MIT",
+  "scripts": {
+    "dico": "dico"
+  },
+  "dependencies": {
+    "@dico.app/client": "file:../"
+  },
+  "devDependencies": {}
+}

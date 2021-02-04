@@ -1,10 +1,27 @@
 {
-  "name": "NAME",
-  "version": "0.0.0",
-  "description": "DESCRIPTION",
-  "private": true,
+  "name": "@dico.app/client",
+  "version": "0.0.1",
+  "description": "Just a POC of an hypothetic client~",
   "author": "lihbr <hello@lihbr.com> (https://lihbr.com)",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "dico": "bin/index.js"
+  },
+  "files": [
+    ".dico",
+    "bin",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/dico-app/poc-client.git",
+    "directory": "./"
+  },
   "scripts": {},
   "engines": {
     "node": ">=10.16.3",
@@ -15,7 +32,11 @@
       "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "consola": "2.15.2",
+    "dotenv": "8.2.0",
+    "semver": "7.3.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
